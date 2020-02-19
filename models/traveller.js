@@ -39,9 +39,17 @@ const Traveller = function(journeys) {
   };
 
 
-Traveller.prototype.getUniqueModesOfTransport = function () {
-
-};
-
+//   Traveller.prototype.getUniqueModesOfTransport = function () {
+//     return this.journeys.every((journey) => {
+//       return
+//     });
+// };
+// _.uniq( array, [isSorted], [iteratee] )
+// 
+// Array.prototype.getUniqueModesOfTransport= function() {
+//   return this.filter(function ((transport)) {
+//     return transport.indexOf(value) === index;
+//   });
+// };
 
 module.exports = Traveller;
